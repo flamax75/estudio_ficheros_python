@@ -1,0 +1,5 @@
+try:
+    from pathlib import Path
+    print("El módulo 'pathlib' se importó correctamente.")
+except ImportError:
+    print("Error: No se pudo importar el módulo 'pathlib'.")
